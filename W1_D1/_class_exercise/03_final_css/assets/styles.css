@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Verdana, sans-serif;
+  padding: 1% 5%;
 }
 
 a {
@@ -8,6 +9,8 @@ a {
   color: #9a16f0;
   font-size: 12px;
   transition: all 500ms;
+  display: block;
+  width: fit-content;
 }
 a::after {
   content: "";

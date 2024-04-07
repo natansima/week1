@@ -11,14 +11,15 @@
 ### Exercise | About Me
 
 1. HTML
-   1. Add the basic structure of an HTML document
-   2. Build a tag structure that includes at least:
+   1. Create an index.html file in a folder of your choosing
+   2. Add the basic structure of an HTML document
+   3. Build a tag structure that includes at least:
       - 2 different headings
       - 1 block element & 1 inline element
       - 1 link
       - 1 image
       - 1 table or list
-   3. BONUS #1 // Try to use as many semantic elements as possible
-   4. BONUS #2 // Add a form with at least 2 different input types
+   4. BONUS #1 // Try to use as many semantic elements as possible
+   5. BONUS #2 // Add a form with at least 2 different input types
 2. CSS
    1. Add styling to your page

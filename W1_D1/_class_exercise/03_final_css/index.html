@@ -5,100 +5,59 @@
     <link rel="stylesheet" href="./assets/styles.css" />
   </head>
   <body>
-    <!-- __ // This a HTML sematic element example -->
-    <main>
-      <!-- __ // This is inline CSS -->
-      <div
-        style="
-          max-width: 1000px;
-          width: 100vw;
-          height: 100vh;
-          margin: 0 auto;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          gap: 20px;
-        "
-      >
-        <!-- __ // This a HTML sematic element example -->
-        <aside>
-          <div style="width: 300px; height: 300px">
-            <img
-              src="./assets/profile-pic.png"
-              alt="Profile Picture"
-              width="100%"
-              height="auto"
-            />
-          </div>
-          <div style="text-align: center">
-            <h1 style="margin: 10px">Hi, I'm João</h1>
-            <a class="email" href="mailto:joao.miguel.morgado@gmail.com"
-              >joao.miguel.morgado@gmail.com</a
-            >
-          </div>
-          <a
-            id="linkedin-btn"
-            href="https://www.linkedin.com/in/joao-morgado"
-            target="_blank"
-            >Linkedin</a
-          >
-        </aside>
-        <!-- __ // This a CSS class -->
-        <section class="right-container">
-          <div
-            style="
-              background-color: white;
-              width: 100%;
-              height: 50%;
-              border-radius: 20px;
-            "
-          >
-            <div style="padding: 40px">
-              <h3>About me</h3>
-              <p>
-                I am an experienced IT professional with expertise in
-                consulting, software development, team management, and agile
-                methodology.
-              </p>
-              <!-- __ // Here is an example of a braking element <p> and an inline element <span> -->
-              <p>
-                I believe in delivering quality products using agile principles
-                like Scrum.
-                <span
-                  >My goal is to help organizations achieve success through
-                  technology.</span
-                >
-              </p>
-            </div>
-          </div>
-          <div
-            style="
-              background-color: white;
-              width: 100%;
-              height: 50%;
-              border-radius: 20px;
-            "
-          >
-            <div style="padding: 40px">
-              <h3>Food I like:</h3>
-              <ol>
-                <li>Italian</li>
-                <ul>
-                  <li>Pizza</li>
-                  <li>Pasta</li>
-                  <li>Gelato</li>
-                </ul>
-                <li>Japanese</li>
-                <ul>
-                  <li>Sushi</li>
-                  <li>Miso Soup</li>
-                  <li>Gyoza</li>
-                </ul>
-              </ol>
-            </div>
-          </div>
-        </section>
+    <!-- Section 1 | Image + Name + Contact -->
+    <section>
+      <div>
+        <img
+          src="./assets/profile-pic.png"
+          alt="Profile Picture"
+          width="300px"
+          height="auto"
+        />
       </div>
-    </main>
+      <div>
+        <h1>Hi, I'm João</h1>
+        <a href="mailto:joao.miguel.morgado@gmail.com"
+          >joao.miguel.morgado@gmail.com</a
+        >
+        <a href="https://www.linkedin.com/in/joao-morgado" target="_blank"
+          >Linkedin</a
+        >
+      </div>
+    </section>
+    <!-- Section 2 | Personal Info  -->
+    <section>
+      <h3>About me</h3>
+      <p>
+        I am an experienced IT professional with expertise in consulting,
+        software development, team management, and agile methodology.
+      </p>
+      <p>
+        I believe in delivering quality products using agile principles like
+        Scrum.
+        <span
+          >My goal is to help organizations achieve success through
+          technology.</span
+        >
+      </p>
+    </section>
+    <!-- Section 3 | Fun Fact  -->
+    <section>
+      <h3>Food I like:</h3>
+      <ol>
+        <li>Italian</li>
+        <ul>
+          <li>Pizza</li>
+          <li>Pasta</li>
+          <li>Gelato</li>
+        </ul>
+        <li>Japanese</li>
+        <ul>
+          <li>Sushi</li>
+          <li>Miso Soup</li>
+          <li>Gyoza</li>
+        </ul>
+      </ol>
+    </section>
   </body>
 </html>

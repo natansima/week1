@@ -1,0 +1,83 @@
+/* Universal Selector Example */
+* {
+  font-family: Verdana, sans-serif;
+}
+
+/* Type Selector Example */
+body {
+  margin: 0;
+  padding: 1% 5%;
+}
+
+/* Type Selector with class Example */
+body.bg-blue {
+  background: lightblue;
+}
+
+/* ID Selector Example */
+#about-me-section {
+  background-color: antiquewhite;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #9a16f0;
+  font-size: 12px;
+  transition: all 500ms;
+  display: block;
+  width: fit-content;
+  margin: 10px 0;
+}
+
+/* Type Selector pseudo-element ::after Example */
+a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #9a16f0;
+  transition: width 500ms;
+}
+
+/* Type Selector pseudo-element :hover and ::after Example */
+a:hover::after {
+  width: 100%;
+  transition: width 500ms;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* Multiple Type Selector Example */
+ol,
+ul {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* Multiple Nested Type Selector Example */
+ol li,
+ul li {
+  line-height: 1.5;
+}
+
+ol li {
+  font-weight: bold;
+  color: #344bf1;
+}
+
+ul li {
+  font-weight: bold;
+  font-size: 48px;
+  /* Color by name */
+  color: black;
+  /* Color by rgb */
+  color: rgb(0, 0, 0);
+  /* Color by rgba, alpha channel for opacity */
+  color: rgba(0, 0, 0, 1);
+  /* Color by hex */
+  color: #000000;
+}
