@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+/* All Descendants Selector */
+.container div {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  margin: 10px;
+}
+
+.container div:first-child {
+  margin-top: 0;
+}
+
+/* Selector List  */
+.container div:nth-of-type(4),
+.container div:nth-of-type(5) {
+  background-color: yellow;
+}
+
+/* Direct Descendant Selector */
+body > div {
+  background-color: blue;
+}
+
+/* CSS [attribute] Selector */
+input[type="text"] {
+  background-color: green;
+}
+
+/* Next Sibling Selector */
+.first-input + input {
+  background-color: red;
+}
+
+/* Specificity - 21 */
+.container div.box10 {
+  background-color: orange;
+}
+
+/* Specificity - 20 */
+.container .box10 {
+  background-color: green;
+}

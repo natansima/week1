@@ -1,4 +1,9 @@
 h1 {
-  font-size: 40px !important;
-  color: darkgreen;
+  font-size: 80px;
+  color: pink;
+}
+
+p {
+  font-size: 20px;
+  color: blue;
 }

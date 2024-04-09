@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  gap: 20px;
+  height: 800px;
+}
+
+.flex-item {
+  width: 100px;
+  height: 100px;
+}
+
+.flex-item:nth-child(1) {
+  background-color: pink;
+}
+
+.flex-item:nth-child(2) {
+  background-color: yellow;
+}
+
+.flex-item:nth-child(3) {
+  background-color: green;
+}
+
+.flex-item:nth-child(4) {
+  background-color: orange;
+}
+
+.flex-item:nth-child(5) {
+  background-color: red;
+}
+
+.flex-item:nth-child(6) {
+  background-color: purple;
+}
+
+.flex-item:nth-child(7) {
+  background-color: brown;
+}
+
+.flex-item:nth-child(8) {
+  background-color: black;
+}
+
+.flex-item:nth-child(9) {
+  background-color: white;
+}
+
+.flex-item:nth-child(10) {
+  background-color: grey;
+}

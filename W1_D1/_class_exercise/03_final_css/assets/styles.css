@@ -82,28 +82,6 @@ ul li {
   background: linear-gradient(90.68deg, #3800eb -7.48%, #9a16f0 113.27%);
 }
 
-aside {
-  background-color: white;
-  width: 50%;
-  height: 80%;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-}
-
-.right-container {
-  width: 50%;
-  height: 80%;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 20px;
-}
-
 #bg-btn {
   position: absolute;
   bottom: 10px;
