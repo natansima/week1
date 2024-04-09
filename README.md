@@ -32,15 +32,15 @@
 
 ### Git
 
-| Command                                | Description                                                                                                 |
-| -------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| git clone < https:// repository-link > | Downloading existing source code from a remote repository                                                   |
-| git status                             | Information about the current branch                                                                        |
-| git add <file>                         | Adds only certain file                                                                                      |
-| git add .                              | Adds everything, but does not remove files that have been deleted                                           |
-| git add -A                             | Adds everything                                                                                             |
-| git commit -m "commit message"         | Git commit is like setting a checkpoint in the development process which you can go back to later if needed |
-| git push <remote> <branch-name>        | Git push uploads your commits to the remote repository everything                                           |
+| Command                         | Description                                                                                                 |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| git clone < repository-link >   | Downloading existing source code from a remote repository                                                   |
+| git status                      | Information about the current branch                                                                        |
+| git add <file>                  | Adds only certain file                                                                                      |
+| git add .                       | Adds everything, but does not remove files that have been deleted                                           |
+| git add -A                      | Adds everything                                                                                             |
+| git commit -m "commit message"  | Git commit is like setting a checkpoint in the development process which you can go back to later if needed |
+| git push <remote> <branch-name> | Git push uploads your commits to the remote repository everything                                           |
 
 ## Useful Links:
 
