@@ -34,7 +34,7 @@
 
 | Command                         | Description                                                                                                 |
 | ------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| git clone < repository-link >   | Downloading existing source code from a remote repository                                                   |
+| git clone \<repository-link\>   | Downloading existing source code from a remote repository                                                   |
 | git status                      | Information about the current branch                                                                        |
 | git add <file>                  | Adds only certain file                                                                                      |
 | git add .                       | Adds everything, but does not remove files that have been deleted                                           |
